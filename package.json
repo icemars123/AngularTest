@@ -1,11 +1,11 @@
 {
-  "name": "learn-angular",
+  "name": "test-angular",
   "version": "1.0.0",
   "author": "Ray Villalobos",
   "description": "This project is the repository for my Learn Angular course",
   "repository": {
     "type": "git",
-    "url": "https://github.com/planetoftheweb/learnangular.git"
+    "url": "git+https://github.com/planetoftheweb/learnangular.git"
   },
   "scripts": {
     "start": "tsc && concurrently \"tsc -w\" \"lite-server\" "
@@ -32,5 +32,11 @@
     "lite-server": "^2.4.0",
     "rimraf": "2.5.4",
     "typescript": "2.0.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/planetoftheweb/learnangular/issues"
+  },
+  "homepage": "https://github.com/planetoftheweb/learnangular#readme",
+  "main": "systemjs.config.js",
+  "license": "ISC"
 }
